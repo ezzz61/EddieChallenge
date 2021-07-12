@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-rows {
+  grid-template-rows: repeat(11, minmax(100px, 150px));
+}
+
+.h-custom {
+  height: 22.75rem;
+}
+
+.grid-rows-team {
+  grid-template-rows: repeat(max-content, minmax(50px, 73px));
+  grid-auto-rows: max-content;
+}
+
+@media (min-width: 1024px) {
+  .see-more {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: flex-end;
+  }
+}
+
+@media (min-width: 1280px) {
+  .see-more {
+    grid-row-start: 9;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    align-self: center;
+  }
+}

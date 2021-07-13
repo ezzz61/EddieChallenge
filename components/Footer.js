@@ -6,8 +6,8 @@ import Form from "./Form";
 
 export default function Footer() {
   return (
-    <footer className="bg-blue-dark mt-64 font-poppins">
-      <div className="container w-8/12 mx-auto py-12 flex sm:flex-col lg:flex-row justify-between sm:gap-y-20 lg:gap-y-0">
+    <footer className="bg-blue-dark sm:mt-28 md:mt-64 font-poppins">
+      <div className="container md:w-8/12 mx-auto py-12 flex sm:flex-col lg:flex-row justify-between sm:gap-y-20 lg:gap-y-0">
         <ul className="flex flex-col gap-4 text-white-normal">
           <li className="hover:text-blue-light transition-all">
             <Link href="/">
@@ -67,8 +67,13 @@ export default function Footer() {
       <div className="text-white-normal text-center pt-14 pb-5 sm:mt-20 lg:mt-0">
         <p>
           created by{" "}
-          <a href="https://www.facebook.com/gias.siganteng/">GiazPawaz</a> -
-          devChallenges.io
+          <a
+            href="https://www.facebook.com/gias.siganteng/"
+            className="text-blue-light"
+          >
+            GiazPawaz
+          </a>{" "}
+          - devChallenges.io
         </p>
       </div>
     </footer>

@@ -4,7 +4,7 @@ import Button from "./Button";
 export default function Form() {
   return (
     <form>
-      <div className="lg:w-[350px] relative">
+      <div className="md:w-[350px] relative">
         <input
           className="font-poppins bg-gray-lightest py-4 pl-4 w-full absolute rounded-xl focus:ring-2 focus:ring-blue-light outline-none"
           type="text"

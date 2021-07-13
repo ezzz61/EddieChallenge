@@ -7,7 +7,7 @@ export default function Card({ image, color, title }) {
 
   return (
     <div
-      className="w-4/12 flex justify-center rounded-xl transition-all hover:shadow-lg"
+      className="md:w-4/12 flex justify-center rounded-xl transition-all hover:shadow-lg"
       onMouseOver={() => {
         setIsActive(true);
       }}
@@ -17,7 +17,7 @@ export default function Card({ image, color, title }) {
     >
       <div className="sm:py-6 sm:px-3 lg:py-12 lg:px-6">
         <img
-          className={`${color} p-4 rounded-lg`}
+          className={`${color} p-4 rounded-2xl`}
           src={`/assets/images/${image}`}
           alt={title}
         />

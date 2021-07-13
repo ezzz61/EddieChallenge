@@ -4,7 +4,7 @@ import Logo from "./Logo";
 
 export default function Navbar() {
   return (
-    <nav className="nav flex justify-between mt-8 items-center">
+    <nav className="nav mx-auto flex justify-between mt-8 items-center font-poppins sm:w-11/12 lg:w-11/12 xl:w-11/12 xxl:w-12/12">
       <div className="">
         <Link href="/">
           <a>
@@ -13,7 +13,7 @@ export default function Navbar() {
         </Link>
       </div>
       <div className="w-6/12">
-        <ul className="flex font-poppins justify-between font-medium">
+        <ul className="flex font-poppins justify-between font-medium sm:hidden lg:inline lg:flex">
           <li className="hover:text-blue-light transition-all">
             <Link href="/">
               <a>Home</a>

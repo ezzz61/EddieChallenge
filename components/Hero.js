@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="container mx-auto font-poppins m-24">
       <div className="w-8/12 mx-auto">
         <p className="text-blue-light">Unhappy with your website?</p>
-        <h1 className="text-5xl font-medium leading-normal mt-4">
+        <h1 className="lg:text-5xl sm:text-4xl font-medium lg:leading-normal sm:leading-normal mt-4">
           We create beautiful
           <br />
           and fast web services
@@ -21,13 +21,13 @@ export default function Hero() {
         />
       </div>
       <div className="w-8/12 mx-auto mt-10">
-        <h1 className="text-5xl font-medium leading-normal mt-4">
+        <h1 className="lg:text-5xl sm:text-4xl font-medium lg:leading-normal sm:leading-normal mt-4">
           Story, emotion
           <br />
           and purpose
         </h1>
-        <div className="w-5/12 mt-10 lg:w-7/12">
-          <p className="text-xl text-gray-light">
+        <div className="w-5/12 mt-10 lg:w-7/12 sm:w-10/12">
+          <p className="lg:text-xl text-gray-light">
             We help transform your ideas into real world applications that will
             outperform your toughest competition and help you achieve your
             strategic goals in short period of time.

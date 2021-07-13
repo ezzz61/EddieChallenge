@@ -15,7 +15,7 @@ export default function Card({ image, color, title }) {
         setIsActive(false);
       }}
     >
-      <div className="py-12 px-6">
+      <div className="sm:py-6 sm:px-3 lg:py-12 lg:px-6">
         <img
           className={`${color} p-4 rounded-lg`}
           src={`/assets/images/${image}`}
@@ -23,7 +23,7 @@ export default function Card({ image, color, title }) {
         />
         <div className="mt-6">
           <h1 className="text-2xl font-bold">{title}</h1>
-          <p className="mt-6 w-9/12 lg:w-10/12">
+          <p className="mt-6 xl:w-9/12 lg:w-12/12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a
             metus ac nulla consequat aliquet id quis turpis.
           </p>

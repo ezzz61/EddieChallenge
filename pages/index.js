@@ -15,7 +15,7 @@ export default function Home() {
       {/* services */}
       <main className="container mx-auto text-gray-normal mt-52 font-poppins">
         <div className="w-10/12 mx-auto">
-          <h1 className="text-5xl font-medium leading-normal mt-4">
+          <h1 className="lg:text-5xl md:text-4xl font-medium lg:leading-normal md:leading-normal mt-4">
             We offer high
             <br />
             demand services
@@ -31,13 +31,13 @@ export default function Home() {
         {/* Design */}
         <div className="w-10/12 mx-auto mt-52">
           <div className="">
-            <h1 className="text-5xl font-medium leading-normal">
+            <h1 className="lg:text-5xl md:text-4xl font-medium lg:leading-normal md:leading-normal">
               Good design means
               <br />
               good business
             </h1>
           </div>
-          <div className="grid grid-rows grid-cols-2 gap-5">
+          <div className="lg:grid grid-rows lg:grid-cols-2 lg:gap-y-0 xxl:gap-y-12 lg:gap-6 md:flex md:flex-col md:gap-16 md:mt-20 lg:mt-0">
             <CardDesign
               position="row-start-2 row-end-5 col-start-1 col-end-2"
               image="smarthome.jpg"
@@ -78,26 +78,22 @@ export default function Home() {
         </div>
         {/* end Design */}
         {/* team */}
-        <div className="container mx-auto w-10/12 -mt-24 lg:-mt-80">
-          <div className="flex justify-between">
-            <div className="w-5/12 flex flex-col justify-center">
+        <div className="container mx-auto w-10/12 md:mt-32 lg:-mt-56 lg:-mt-80 xl:-mt-56">
+          <div className="flex lg:flex-row md:flex-col justify-between">
+            <div className="w-7/12 flex flex-col justify-center">
               <p className="text-red-light font-semibold text-medium">
                 Meet the team
               </p>
-              <h1 className="text-5xl font-medium text-gray-normal mt-2 mb-4">
-                We are chilled
-                <br />
-                and a lidback
-                <br />
-                team
+              <h1 className="lg:w-10/12 xl:w-8/12 lg:text-5xl md:text-5xl font-medium text-gray-normal mt-2 mb-4 lg:leading-normal md:leading-normal">
+                We are chilled and a lidback team
               </h1>
-              <p className="text-gray-light text-medium">
+              <p className="text-gray-light md:text-xl lg:text-base">
                 Lorem ipsum dolor sit amet,
                 <br />
                 consectetur adipiscing elit.
               </p>
             </div>
-            <div className="w-7/12 grid grid-cols-2 grid-rows-team gap-4">
+            <div className="lg:w-7/12 grid grid-cols-2 grid-rows-team gap-4 md:mt-14 xl:mt-0">
               <div className="col-start-2 col-end-3 row-start-1 row-end-5 self-end rounded-xl overflow-hidden h-60 w-60">
                 <img
                   src="/assets/images/person1.png"
@@ -112,7 +108,7 @@ export default function Home() {
                   alt="person2"
                 />
               </div>
-              <div className="row-start-3 row-end-6 col-span-1 col-end-2 justify-self-end rounded-xl overflow-hidden h-72">
+              <div className="row-start-2 row-end-6 lg:mt-6 xl:mt-16 col-span-1 col-end-2 justify-self-end rounded-xl overflow-hidden h-72">
                 <img
                   src="/assets/images/person3.png"
                   alt="person3"
@@ -124,9 +120,9 @@ export default function Home() {
         </div>
         {/* end team */}
         <div className="container w-10/12 mx-auto mt-52">
-          <div className="w-10/12">
+          <div className="lg:w-9/12 md:w-12/12">
             <div className="">
-              <q className="text-gray-normal text-5xl font-medium leading-normal">
+              <q className="text-gray-normal lg:text-4xl md:text-3xl font-medium lg:leading-normal md:leading-normal">
                 Fast and outstanding resutls. Edie understands their customer’s
                 needs. They have a young and talented team.
               </q>
@@ -143,7 +139,7 @@ export default function Home() {
                 <h3 className="font-semibold text-gray-normal text-2xl">
                   Carlos Tran
                 </h3>
-                <p className="mt-2 font-semibold text-gray-lighter">
+                <p className="mt-2 font-normal text-gray-lighter">
                   The Decorate Gatsby
                 </p>
               </div>

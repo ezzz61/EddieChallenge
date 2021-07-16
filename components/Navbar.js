@@ -38,7 +38,7 @@ export default function Navbar() {
               toggle
                 ? "sm:translate-x-full md:translate-x-0"
                 : "bg-white-normal"
-            } sm:fixed md:relative right-0 top-0 left-0 sm:gap-y-16 sm:items-center md:items-stretch z-10 flex-col h-full w-full flex flex-row justify-center`}
+            } overflow-y-hidden sm:fixed md:relative right-0 top-0 left-0 sm:gap-y-16 sm:items-center md:items-stretch z-10 flex-col h-full w-full flex flex-row justify-center`}
           >
             <button
               className="md:hidden fixed right-5 top-9"

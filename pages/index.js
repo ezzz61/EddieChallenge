@@ -78,7 +78,7 @@ export default function Home() {
         </div>
         {/* end Design */}
         {/* team */}
-        <div className="container mx-auto md:w-10/12 sm:mt-32 lg:-mt-56 lg:-mt-80 xl:-mt-36">
+        <div className="container mx-auto md:w-10/12 sm:mt-40 ">
           <div className="flex lg:flex-row sm:flex-col justify-between">
             <div className="sm:w-10/12 md:w-7/12 flex flex-col justify-center">
               <p className="text-red-light font-semibold text-medium">
